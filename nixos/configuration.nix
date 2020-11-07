@@ -19,6 +19,7 @@ let
       lemonbar
       conky
       pulsemixer
+      dunst
       (neovim.override {
         configure = {
           customRC = ''
@@ -197,7 +198,7 @@ in
   services.xserver.exportConfiguration = true;
   services.xserver.layout = "us,ru";
   services.xserver.xkbOptions = "compose:menu, grp:alt_shift_toggle";
-
+  services.logind.extraConfig = "HandleLidSwitch=ignore";
   # Set fonts
    fonts = {
     fontconfig = {
