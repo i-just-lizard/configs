@@ -15,13 +15,32 @@ let
       upower
       acpi
       herbstluftwm
+      polybar
       lemonbar
       conky
       pulsemixer
-      (import ./nvim.nix)
+      (neovim.override {
+        configure = {
+          customRC = ''
+            syntax on
+            filetype on
+            filetype plugin indent on
+            let g:airline_powerline_fonts = 1
+          '';
+          pathogen = {
+            knownPlugins = vimPlugins;
+            pluginNames = [
+              "vim-nix"
+              "airline"
+              "vim-airline-themes"
+            ];
+          };
+        };
+      })
       newsboat
       qemu
       ghc
+      ranger
               ];
     media = [
       mpv
@@ -180,12 +199,23 @@ in
   services.xserver.xkbOptions = "compose:menu, grp:alt_shift_toggle";
 
   # Set fonts
-  fonts.fonts = with pkgs; [
+   fonts = {
+    fontconfig = {
+      # ultimate.enable = true; # This enables fontconfig-ultimate settings for better font rendering
+      defaultFonts = {
+        monospace = ["Iosevka"];
+      };
+    };
+    enableFontDir = true;
+    enableGhostscriptFonts = true;
+  fonts = with pkgs; [
     noto-fonts
     noto-fonts-emoji
     powerline-fonts
     siji
+    iosevka
   ];
+};
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lizard = {
     isNormalUser = true;
