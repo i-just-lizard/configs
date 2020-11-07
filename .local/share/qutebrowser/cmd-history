@@ -1,0 +1,100 @@
+:open -t nixos qemu 
+:open -t qemu create hard-drive
+:open -t plan9 iso
+:open -t plan9 wifi
+:open -t unpack bz2
+:open -t nixos 9port
+:open -t plan9port
+:open -t plan9port nixos
+:open https://boards.4channel.org/g/
+:open -t nixos ghc
+:open https://github.com/i-just-lizard/nixos-configs
+:open -t github delete folder and files inside
+:open -t github delete folder from website
+:open -t connect to github git
+:open -t https://github.com/isaacs/github/issues/225
+:open -t github remove directory
+:open -t git remove directory
+:open -t github gui liniux
+:open -t github create repo cli
+:open -t error: src refspec main does not match any
+
+:open -t alnyan.me
+:open -t https://ap.www.namecheap.com/Domains/DomainControlPanel/lizard-inside.xyz/advancedns
+:open -t https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+:open -t lizard-inside.xyz 
+:open https://github.com/i-just-lizard/nixos-stuff/tree/master/nixos
+:open -t https://www.youtube.com/
+:open -t qutebrowser fullscreen
+:fullscreen
+:open https://www.youtube.com/
+:open -t heaven's gate
+:open -t how to write rootfs on orange pi
+:open -t rootfs-installer
+:open -t dietpi orange pi win
+:open -t nixos aarch64
+:open -t orange pi win 
+:open -t openbsd aarch64 rootfs
+:open http://dl.fail.pp.ua/slackware/rootfs/
+:open -t openwrt openvpn access only to one ip
+:open https://github.com/i-just-lizard/nixos-stuff/stargazers
+:open -t polybar
+:open -t https://www.google.com/search?q=polybar hlwm
+:open -t polybar sample config 
+:open -t https://gist.github.com/olmokramer/b28ff8ed5fd366e3ebb23b79915ec850
+:open -t polybar hlwm
+:open -t polybar pulse
+:open -t wayland
+:open -t wayland wm
+:open dwm wayland
+:open -t TinyWL
+:open https://www.youtube.com/
+:open -t https://boards.4channel.org/g/
+:open https://www.youtube.com/
+:open -t nixos update
+:open https://www.youtube.com/watch?v=t4qcQRZ1ePM
+:open -t add antizapret in qutebrowser
+:open rutracker.org
+:open https://www.youtube.com/
+:open -t qutebrotwser block element manually
+:open -t nvim copy from visual
+:open -t https://boards.4channel.org/g/
+:open -t ranger pictures in termite
+:ranger change default editor
+:open -t ranger change to nvim
+:open -t openbsd wayland
+:open -t iosevka nixos
+:history
+:open https://www.youtube.com/marsh
+:open -t dt patch for dmenu
+:open https://boards.4channel.org/g/thread/78554962
+:open -t https://github.com/i-just-lizard/nixos-stuff
+:open -t basic git commands 
+:open -t git push --all
+Everything up-to-date
+
+:open -t https://mail.google.com/mail/u/0/#inbox
+:open -t https://www.linuxquestions.org/questions/slackware-arm-108/slarm64-aarch64-unofficial-slackware-4175613287/page13.html
+:open -t bedrock linux
+:open -t scrot по области 
+:open -t i3lock-fancy nixos
+:open -t nixos xmonad
+:open -t https://boards.4channel.org/g/thread/78554962
+:open -t dunstrc
+:open https://github.com
+:open https://github.com/i-just-lizard/nixos-stuff
+:open -t stonesense
+:open -t american result
+:open -t https://www.youtube.com/
+:open -t https://www.google.com/search?q=qutebrotwser change colorscheme
+:config-write-py
+:config-edit
+:config-source
+:open -t qutebrowser use dmenu
+:spawn -u (--userscript_
+:spawn -u (--userscript)
+:config-source
+:history-clear
+:open qutebrowser execute userscrpt
+:open qutebrowser dmenu-open
+:config-source
