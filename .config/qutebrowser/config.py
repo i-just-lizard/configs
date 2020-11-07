@@ -162,10 +162,10 @@ config.set('content.notifications', False, 'https://www.reddit.com')
 # qutebrowser`.
 # Type: Dict
 c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}'}
-
+config.bind('M', 'hint links spawn mpv {hint-url}')
 # Bindings to use dmenu rather than qutebrowser's builtin search.
-config.bind('o', 'spawn --userscript dmenu-open')
-config.bind('O', 'spawn --userscript dmenu-open --tab')
+#config.bind('o', 'spawn --userscript dmenu-open')
+#config.bind('O', 'spawn --userscript dmenu-open --tab')
 
 
 
