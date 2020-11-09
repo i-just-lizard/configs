@@ -214,9 +214,16 @@ in
     noto-fonts-emoji
     powerline-fonts
     siji
-    #iosevka
-     (iosevka.override { design = [ "slab" "term" ]; set = "serif"; })
-  ];
+    iosevka
+    #(iosevka.override {
+    #set = "type";
+    #  design = [
+    #    "type" "v-l-italic" "v-i-italic" "v-g-singlestorey" "v-zero-dotted"
+    #    "v-asterisk-high" "v-at-long" "v-brace-straight"
+    #  ];
+    #})
+      ];
+  #];
 };
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lizard = {
