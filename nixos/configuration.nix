@@ -214,7 +214,8 @@ in
     noto-fonts-emoji
     powerline-fonts
     siji
-    iosevka
+    #iosevka
+     (iosevka.override { design = [ "slab" "term" ]; set = "serif"; })
   ];
 };
   # Define a user account. Don't forget to set a password with ‘passwd’.
