@@ -20,6 +20,27 @@ let
       conky
       pulsemixer
       dunst
+      (iosevka.override {
+    privateBuildPlan = {
+      family = "Iosevka Slab";
+      design = [
+        "slab"
+        "ligset-hskl"
+        "calt-exeq-alt-1"
+        "calt-html-comment"
+        "calt-tildeeq"
+        "v-asterisk-low"
+        "v-at-long"
+        "v-caret-low"
+        "v-dollar-open"
+        "v-paragraph-low"
+        "v-underscore-low"
+        "v-zero-dotted"
+      ];
+    };
+    set = "slab";
+  })
+
       (neovim.override {
         configure = {
           customRC = ''
@@ -204,7 +225,7 @@ in
     fontconfig = {
       # ultimate.enable = true; # This enables fontconfig-ultimate settings for better font rendering
       defaultFonts = {
-        monospace = ["Iosevka"];
+        monospace = ["Iosevka-Slab"];
       };
     };
     enableFontDir = true;
@@ -214,7 +235,7 @@ in
     noto-fonts-emoji
     powerline-fonts
     siji
-    iosevka
+    #iosevka
     #(iosevka.override {
     #set = "type";
     #  design = [
