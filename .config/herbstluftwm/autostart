@@ -7,16 +7,29 @@ hc() {
 }
 
 hc emit_hook reload
-feh --bg-scale --randomize --no-fehbg ~/Papes/*
+dunst &
+feh --bg-scale --randomize --no-fehbg  ~/Papes/*
+#feh --bg-scale --no-fehbg ~/Papes/pape21.png &
 # remove all existing keybindings
 hc keyunbind --all
 Mod=Mod4   # Use the super key as the main modifier
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
-hc keybind $Mod-Return spawn "${TERMINAL:-termite}" # use your $TERMINAL with xterm as fallback
-hc keybind $Mod-d spawn dmenu_run
-hc keybind XF86ScreenSaver spawn i3lock-fancy
+hc keybind $Mod-Return spawn "${TERMINAL:-urxvt}" # use your $TERMINAL with xterm as fallback
+#hc keybind $Mod-d spawn dmenu_run
+hc keybind Print spawn scrot -d 1
+hc keybind Print-Shift spawn scrot -s 
+hc keybind $Mod-d spawn rofi -show combi
+hc keybind XF86ScreenSaver spawn slock
+#hc keybind XF86AudioMute spawn amixer -q sset Master,0 toggle
+hc keybind XF86AudioMute spawn bash $HOME/scripts/volumeControl.sh mute
+#hc keybind XF86AudioRaiseVolume spawn amixer -q sset Master,0 5%+ unmute
+hc keybind XF86AudioRaiseVolume spawn bash $HOME/scripts/volumeControl.sh up
+#hc keybind XF86AudioLowerVolume spawn amixer -q sset Master,0 5%- unmute
+hc keybind XF86AudioLowerVolume spawn bash $HOME/scripts/volumeControl.sh down
+hc keybind XF86MonBrightnessDown spawn xbacklight -dec 10
+hc keybind XF86MonBrightnessUp spawn xbacklight -inc 10
 hc keybind $Mod-Left  focus left
 hc keybind $Mod-Down  focus down
 hc keybind $Mod-Up    focus up
