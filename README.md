@@ -1,1 +1,2 @@
-# nixos-stuff
+#mine dotfiles
+#ex-nixos-stuff
