@@ -1,1 +1,1 @@
-/home/lizard/gits/software/barpyrus-master/barpyrus.py
+/home/lizard/gits/barpyrus/barpyrus.py

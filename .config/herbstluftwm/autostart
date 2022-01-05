@@ -8,8 +8,8 @@ hc() {
 
 hc emit_hook reload
 dunst &
-feh --bg-scale --randomize --no-fehbg  ~/Papes/*
-#feh --bg-scale --no-fehbg ~/Papes/pape21.png &
+#feh --bg-scale --randomize --no-fehbg  ~/Papes/*
+feh --bg-scale --no-fehbg ~/Papes/PANASONIC2.png &
 # remove all existing keybindings
 hc keyunbind --all
 Mod=Mod4   # Use the super key as the main modifier
@@ -21,7 +21,7 @@ hc keybind $Mod-Return spawn "${TERMINAL:-alacritty}" # use your $TERMINAL with 
 hc keybind Print spawn scrot -d 1
 hc keybind Print-Shift spawn scrot -s 
 hc keybind $Mod-d spawn rofi -show combi
-hc keybind Muhenkan spawn slock
+hc keybind Muhenkan spawn i3lock-fancy
 #hc keybind XF86AudioMute spawn amixer -q sset Master,0 toggle
 hc keybind XF86AudioMute spawn bash $HOME/scripts/volumeControl.sh mute
 hc keybind XF86AudioRaiseVolume spawn amixer -q sset Master,0 5%+ unmute
@@ -129,25 +129,25 @@ hc set tree_style '╾│ ├└╼─┐'
 
 hc unlock
 
-#panel=~/.config/herbstluftwm/panel.sh
+panel=~/.config/herbstluftwm/panel.sh
 #[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
-#for monitor in $(hc list_monitors | cut -d: -f1) ; do
-#    "$panel" "$monitor" &
-#done
+for monitor in $(hc list_monitors | cut -d: -f1) ; do
+    "$panel" "$monitor" &
+done
 
 # add an external panel
-{
-    pids=( )
+#{
+#    pids=( )
     # reserve some space for the panel on monitor 0
-    hc pad 0 "" "" 0
+#    hc pad 0 "" "" 0
     # start the panel itself and remember its pid
-    polybar bar &
-    pids+=( $! )
+#    polybar bar &
+#    pids+=( $! )
     # or start another panel:
     # mypanel &
     # pids+=( $! )
     # wait until the panels should be stopped
-    herbstclient -w '(quit_panel|reload)'
+ #   herbstclient -w '(quit_panel|reload)'
     # stopp all started panels
-    kill ${pids[@]}
-} &
+ #   kill ${pids[@]}
+#} &
