@@ -13,7 +13,7 @@ hc = hlwm.connect()
 # get the geometry of the monitor
 monitor = sys.argv[1] if len(sys.argv) >= 2 else 0
 (x, y, monitor_w, monitor_h) = hc.monitor_rect(monitor)
-height = 23 # height of the panel
+height = 28 # height of the panel
 width = monitor_w # width of the panel
 hc(['pad', str(monitor), str(height)]) # get space for the panel
 
@@ -30,21 +30,21 @@ conky_text = '%{F\\#D8DEE9}%{T2}\ue026%{T-}%{F\\#989898}${cpu}% '
 conky_text += '%{F\\#D8DEE9}%{T2}\ue021%{T-}%{F\\#989898}${memperc}% '
 #conky_text += '%{F\\#D8DEE9}%{T2}\ue13c%{T-}%{F\\#989898}${downspeedf}K '
 #conky_text += '%{F\\#D8DEE9}%{T2}\ue13b%{T-}%{F\\#989898}${upspeedf}K '
-conky_text += "${if_existing /sys/class/power_supply/BAT0}"
+conky_text += "${if_existing /sys/class/power_supply/BAT1}"
 conky_text += "%{T2}"
-conky_text += "${if_match \"$battery\" == \"discharging $battery_percent%\"}"
+conky_text += "${if_match \"$battery\" == \"discharging ${battery_percent BAT1}%\"}"
 conky_text += "%{F\\#EBCB8B}"
 conky_text += "$else"
 conky_text += "%{F\\#D8DEE9}"
 conky_text += "$endif"
 for i,icon in enumerate(bat_icons[:-1]):
-    conky_text += "${if_match $battery_percent < %d}" % ((i+1)*bat_delta)
+    conky_text += "${if_match ${battery_percent BAT1} < %d}" % ((i+1)*bat_delta)
     conky_text += chr(icon)
     conky_text += "${else}"
 conky_text += chr(bat_icons[-1]) # icon for 100 percent
 for _ in bat_icons[:-1]:
     conky_text += "${endif}"
-conky_text += "%{T-} $battery_percent% "
+conky_text += "%{T-} ${battery_percent BAT1}% "
 conky_text += "${endif}"
 conky_text += "%{F-}"
 
