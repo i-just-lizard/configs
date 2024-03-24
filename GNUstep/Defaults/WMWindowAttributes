@@ -1,0 +1,17 @@
+{
+  default.default = {
+    Icon = default.default.xpm;
+  };
+  firefox.Firefox = {
+    Icon = "firefox-esr.png";
+  };
+  qbittorrent.qBittorrent = {
+    Icon = qbittorrent.qBittorrent.xpm;
+  };
+  Telegram.64Gram = {
+    Icon = pidgin.png;
+  };
+  urxvt.URxvt = {
+    Icon = qterminal.png;
+  };
+}

@@ -1,0 +1,31 @@
+{
+  TitleJustify = center;
+  ClipTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-9";
+  WindowTitleFont = "-b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-9";
+  MenuTitleFont = "-b&h-lucidux sans-medium-r-normal-*-13-*-*-*-p-*-iso8859-9";
+  MenuTextFont = "-b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-9";
+  IconTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-9";
+  DisplayFont = "-*-helvetica-bold-r-normal-*-12-*-*-*-*-*-*-*";
+  LargeDisplayFont = "-*-lucida-bold-r-normal-*-*-240-*-*-*-*-*-*";
+  HighlightColor = "#353b42";
+  HighlightTextColor = "#e0dcc8";
+  ClipTitleColor = "#d6d6d6";
+  CClipTitleColor = "#808080";
+  FTitleColor = "#ebebeb";
+  PTitleColor = gray70;
+  UTitleColor = "#bdbdbd";
+  FTitleBack = (spixmap, focused.png, "#616161");
+  PTitleBack = (spixmap, unfocused.png, black);
+  UTitleBack = (tpixmap, menuback_blue.png, black);
+  ResizebarBack = (spixmap, resizebar.png, black);
+  MenuTitleColor = "#e0e0e0";
+  MenuTextColor = "#d6d6d6";
+  MenuDisabledColor = "#858585";
+  MenuTitleBack = (tpixmap, focused.png, black);
+  MenuTextBack = (thgradient, menuback_blue.png, 128, "#555555", "#2c2c2c");
+  IconBack = (spixmap, tile.png, "#616161");
+  IconTitleColor = gray90;
+  IconTitleBack = "#334033";
+  MenuStyle = flat;
+  WorkspaceBack = (spixmap, river.jpg, "#616161");
+}

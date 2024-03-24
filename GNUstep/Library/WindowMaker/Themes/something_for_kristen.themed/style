@@ -1,0 +1,24 @@
+{
+  TitleJustify = Right;
+  HighlightColor = "#66241a";
+  HighlightTextColor = "#fdecda";
+  ClipTitleColor = "#f0e1d0";
+  CClipTitleColor = "rgb:61/61/61";
+  FTitleColor = "#feeddb";
+  PTitleColor = "#8c7857";
+  UTitleColor = "#8c7857";
+  FTitleBack = (mvgradient, "#5e1c12", "#594d38", "#3d3b33");
+  PTitleBack = (mvgradient, "#66241a", "#902e1a", "#33170a");
+  UTitleBack = (mvgradient, "#662417", "#902e1a", "#33170a");
+  ResizebarBack = (mvgradient, "#66241a", "#594d38", "#3d3b33");
+  MenuTitleColor = "#f0dfcf";
+  MenuTextColor = "#fdecda";
+  MenuDisabledColor = "#8b7958";
+  MenuTitleBack = (mvgradient, "#612417", "#8e2e1a", "#331809");
+  MenuTextBack = (mdgradient, "#943426", "#594d39", "#3d3a32");
+  IconBack = (mdgradient, "#66241a", "#8e2e1a", "#33170a");
+  IconTitleColor = "#f0e1d0";
+  IconTitleBack = "#66241a";
+  MenuStyle = Flat;
+  WorkspaceBack = (tpixmap, "Something-For-Kristen-5.JPG", "#333333");
+}

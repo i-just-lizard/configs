@@ -1,0 +1,24 @@
+{
+  TitleJustify = Right;
+  HighlightColor = "#545148";
+  HighlightTextColor = "#feb768";
+  ClipTitleColor = "#d6d1cf";
+  CClipTitleColor = "#737373";
+  FTitleColor = "#dbd9cf";
+  PTitleColor = "#a19994";
+  UTitleColor = "#a09993";
+  FTitleBack = (spixmap, focused.png, "#545454");
+  PTitleBack = (spixmap, unfocused.png, "#4f4f4f");
+  UTitleBack = (spixmap, unfocused.png, "#545454");
+  ResizebarBack = (spixmap, focused.png, "#545454");
+  MenuTitleColor = "#111110";
+  MenuTextColor = "#dad9cf";
+  MenuDisabledColor = "#807d75";
+  MenuTitleBack = (spixmap, menubar.png, "#7a7a7a");
+  MenuTextBack = (spixmap, unfocused.png, "#705136");
+  IconBack = (spixmap, tile.png, "#404040");
+  IconTitleColor = "#e0d6cf";
+  IconTitleBack = "#544f46";
+  MenuStyle = Normal;
+  WorkspaceBack = (tpixmap, zoetrope.jpg, "#707070");
+}

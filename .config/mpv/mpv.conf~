@@ -1,0 +1,6 @@
+profile=high-quality 
+hwdec=auto
+video-sync=display-resample 
+interpolation 
+tscale=oversample
+ytdl-format="((bestvideo[vcodec^=vp9]/bestvideo)+(bestaudio[acodec=opus]/bestaudio[acodec=vorbis]/bestaudio[acodec=aac]/bestaudio))/best"

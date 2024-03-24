@@ -1,0 +1,35 @@
+{
+  TitleJustify = Right;
+  ClipTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-9";
+  WindowTitleFont = "-b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-9";
+  MenuTitleFont = "-b&h-lucidux sans-medium-r-normal-*-13-*-*-*-p-*-iso8859-3";
+  MenuTextFont = "-b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-9";
+  IconTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-15";
+  DisplayFont = "-*-helvetica-bold-r-normal-*-12-*-*-*-*-*-*-*";
+  LargeDisplayFont = "-*-lucida-bold-r-normal-*-*-240-*-*-*-*-*-*";
+  HighlightColor = "#292620";
+  HighlightTextColor = "#edc09d";
+  ClipTitleColor = "#d0c1b0";
+  CClipTitleColor = gray90;
+  FTitleColor = "#ebd6bf";
+  PTitleColor = "#949494";
+  UTitleColor = "#949494";
+  FTitleBack = (tvgradient, map.png, 128, "#2e1f16", "#140c09");
+  PTitleBack = (tvgradient, map.png, 128, "#5e3d24", "#5e3d29");
+  UTitleBack = (tvgradient, map.png, 128, "#703f1a", "#5e2e12");
+  ResizebarBack = (mvgradient, "#1f1f1f", "#2e2926", "#140f0d");
+  MenuTitleColor = "#ebd8c5";
+  MenuTextColor = "#dacec3";
+  MenuDisabledColor = "#5e5e5e";
+  MenuTitleBack = (tvgradient, map.png, 128, "#78451f", "#663516");
+  MenuTextBack = (thgradient, map.png, 128, "#3d3028", "#14100e");
+  IconBack = (tdgradient, map.png, 128, "#2e2017", "#140c09");
+  IconTitleColor = "#d1c2b0";
+  IconTitleBack = "#241c17";
+  MenuStyle = flat;
+  WindowTitleExtendSpace = "-1";
+  MenuTitleExtendSpace = "-1";
+  MenuTextExtendSpace = "-1";
+  NormalCursor = (builtin, left_ptr);
+  WorkspaceBack = (tpixmap, "Life-After-Death-5.JPG", "#4a4a4a");
+}

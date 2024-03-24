@@ -1,0 +1,35 @@
+{
+  TitleJustify = Right;
+  ClipTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-15";
+  WindowTitleFont = "-b&h-lucidux sans-medium-r-normal-*-*-120-*-*-p-*-iso8859-15";
+  MenuTitleFont = "-b&h-lucidux sans-medium-r-normal-*-*-120-*-*-p-*-iso8859-15";
+  MenuTextFont = "-b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-15";
+  IconTitleFont = "-b&h-lucidux sans-medium-r-normal-*-10-*-*-*-p-*-iso8859-15";
+  DisplayFont = "-*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*";
+  LargeDisplayFont = "-b&h-lucidux sans-medium-r-normal-*-*-120-*-*-p-*-iso8859-15";
+  HighlightColor = "#6b4c33";
+  HighlightTextColor = "#fcf1e5";
+  ClipTitleColor = "#f0e1d0";
+  CClipTitleColor = "rgb:61/61/61";
+  FTitleColor = "#fdf2e6";
+  PTitleColor = "#8f8274";
+  UTitleColor = "#938476";
+  FTitleBack = (mvgradient, "#544d4a", "#855939", "#755234", "#452e1d");
+  PTitleBack = (mvgradient, "#705c54", "#a37148", "#855c3b");
+  UTitleBack = (mvgradient, "#705c57", "#a27148", "#47301f");
+  ResizebarBack = (mvgradient, "#705c57", "#855c3b", "#47301f");
+  MenuTitleColor = "#efe4da";
+  MenuTextColor = "#fcf1e5";
+  MenuDisabledColor = "#8f8273";
+  MenuTitleBack = (mvgradient, "#616161", "#855939", "#735134", "#452e1d");
+  MenuTextBack = (mdgradient, "#855c3b", "#a37148", "#986b44", "#6b4a2f");
+  IconBack = (mdgradient, "#855c3b", "#a17149", "#976c44", "#6b4b30", "#3d291a");
+  IconTitleColor = "#efe5da";
+  IconTitleBack = "#6b4a2f";
+  MenuStyle = Flat;
+  WindowTitleExtendSpace = "-1";
+  MenuTitleExtendSpace = "-1";
+  MenuTextExtendSpace = "-1";
+  NormalCursor = (builtin, left_ptr);
+  WorkspaceBack = (tpixmap, "Extra-Sensory-Squirrel-1.JPG", "#333333");
+}

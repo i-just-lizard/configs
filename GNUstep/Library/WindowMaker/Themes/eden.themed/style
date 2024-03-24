@@ -1,0 +1,28 @@
+{
+  TitleJustify = right;
+  HighlightColor = "#555f60";
+  HighlightTextColor = "#dfdfdf";
+  ClipTitleColor = "#e5e5e5";
+  CClipTitleColor = "#7a7a7a";
+  FTitleColor = "#f5f5f5";
+  PTitleColor = "#8c8c8c";
+  UTitleColor = "#d1d1d1";
+  FTitleBack = (tpixmap, focused.png, "#ffffff");
+  PTitleBack = (tpixmap, map.png, "#ffffff");
+  UTitleBack = (tpixmap, map.png, "#ffffff");
+  ResizebarBack = (tpixmap, focused.png, "#ffffff");
+  MenuTitleColor = "#ededed";
+  MenuTextColor = "#ededed";
+  MenuDisabledColor = "#616161";
+  MenuTitleBack = (spixmap, focused.png, "#ffffff");
+  MenuTextBack = (tpixmap, map.png, "#555f60");
+  IconBack = (spixmap, tile.png, "#ffffff");
+  IconTitleColor = "#f5f5f5";
+  IconTitleBack = "#555f60";
+  MenuStyle = flat;
+  WindowTitleExtendSpace = "-1";
+  MenuTitleExtendSpace = "-1";
+  MenuTextExtendSpace = "-1";
+  NormalCursor = (builtin, left_ptr);
+  WorkspaceBack = (tpixmap, eden_bg.jpg, gray20);
+}

@@ -1,0 +1,49 @@
+activeside = left;
+left {
+	activemode = "VirtualDirMode";
+	"VirtualDirMode" {
+		hiddenfiles = show;
+		sortby = name;
+		showfreespace = true;
+		updatetime = 5;
+		field_width = "LISTCOL_CUSTOM_ATTR",-1;
+		field_width = "LISTCOL_DEST",-1;
+		field_width = "LISTCOL_MOD",-1;
+		field_width = "LISTCOL_NAME",-1;
+		field_width = "LISTCOL_OWNER",-1;
+		field_width = "LISTCOL_PERM",-1;
+		field_width = "LISTCOL_SIZE",-1;
+		field_width = "LISTCOL_TYPE",-1;
+	}
+	"ShowImageMode" {
+		viewstr = "xliwrapper_worker";
+	}
+	"InformationMode" {
+	}
+	"TextViewMode" {
+	}
+}
+right {
+	activemode = "VirtualDirMode";
+	"VirtualDirMode" {
+		hiddenfiles = show;
+		sortby = name;
+		showfreespace = true;
+		updatetime = 5;
+		field_width = "LISTCOL_CUSTOM_ATTR",-1;
+		field_width = "LISTCOL_DEST",-1;
+		field_width = "LISTCOL_MOD",-1;
+		field_width = "LISTCOL_NAME",-1;
+		field_width = "LISTCOL_OWNER",-1;
+		field_width = "LISTCOL_PERM",-1;
+		field_width = "LISTCOL_SIZE",-1;
+		field_width = "LISTCOL_TYPE",-1;
+	}
+	"ShowImageMode" {
+		viewstr = "xliwrapper_worker";
+	}
+	"InformationMode" {
+	}
+	"TextViewMode" {
+	}
+}
